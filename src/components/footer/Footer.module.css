@@ -1,0 +1,77 @@
+.footer {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(237, 153, 28);
+    overflow: hidden;
+  }
+  
+  .cloudContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cloudLeft, .cloudRight {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cloudLeft svg, .cloudRight svg {
+    position: absolute;
+    bottom: 0;
+    width: 120%;
+    height: 100%;
+    top: 100px;
+  }
+  
+  .cloudLeft svg {
+    left: 0;
+  }
+  
+  .cloudRight svg {
+    right: 0;
+  }
+  
+  .footerTextLeft {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    bottom: 20%;
+    left: 40%;
+  }
+  
+  .footerTextRight {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    bottom: 20%;
+    right: 40%;
+  }
+  
+  @media (max-width: 768px) {
+    .cloudLeft, .cloudRight {
+      width: 48%;
+    }
+    
+    .footerTextLeft {
+      left: 15%;
+      font-size: 14px;
+    }
+    
+    .footerTextRight {
+      right: 15%;
+      font-size: 14px;
+    }
+  }

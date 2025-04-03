@@ -1,0 +1,151 @@
+.mobileMenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 380px;
+    background-color: #FBEBB0; 
+    border-left: 3px solid #000;
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    overflow-y: auto;
+  }
+  
+  .open {
+    transform: translateX(0);
+  }
+  
+
+  .menuHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: 900;
+    color: #000;
+    font-family: 'Alata', sans-serif;
+  }
+  
+  .headerButtons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .closeButton {
+    background-color: #111;
+    color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+
+  .menuContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #111;
+    color: #FFD700;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+  }
+  
+  .navLink {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    font-family: 'Alata', sans-serif;
+    transition: transform 0.2s ease;
+  }
+  
+  .navLink:hover {
+    transform: scale(1.05);
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+  }
+  
+  .iconLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .iconLink img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.2s ease;
+  }
+  
+  .iconLink:hover img {
+    transform: translateY(-3px);
+  }
+
+  .heroImageContainer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 45%;
+    overflow: hidden;
+  }
+  
+  .heroImage {
+    max-width: 70%;
+    max-height: 100%;
+    object-fit: contain;
+    object-position: bottom;
+  }
+  
+  
+  @media (max-width: 480px) {
+    .mobileMenu {
+      max-width: 100%;
+    }
+    
+    .navLink {
+      font-size: 22px;
+    }
+    
+    .socialIcons {
+      gap: 20px;
+    }
+    
+    .heroImage {
+      max-width: 80%;
+    }
+  }

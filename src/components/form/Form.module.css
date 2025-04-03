@@ -1,0 +1,182 @@
+.container {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 24px;
+    padding: 35px 30px;
+    max-width: 400px;
+    margin: 40px auto;
+    color: #ffffff;
+    text-align: center;
+    border: 3px solid #ecce84;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #ffcb45;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .button {
+    background-color: #ffcb45;
+    color: #1c1e26;
+    font-weight: 700;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 50px;
+    margin: 12px 0;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    width: 100%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(255, 203, 69, 0.3);
+  }
+  
+  .button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(255, 203, 69, 0.4);
+    background-color: #ffd766;
+  }
+  
+  .button:active {
+    transform: translateY(1px);
+  }
+  
+  .input {
+    width: 100%;
+    height: 40px;
+    margin: 15px 0;
+    border: 2px solid #ffcb45;
+    border-radius: 50px;
+    background-color: #2a2c36;
+    color: #ffffff;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+  }
+
+  .but {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .input:focus {
+    border-color: #ffd766;
+    outline: none;
+    box-shadow: 0 0 15px rgba(255, 203, 69, 0.2), inset 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .message {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    padding: 12px 15px;
+    border-radius: 15px;
+    background-color: #2a2c36;
+  }
+  
+  .status {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 15px 0;
+    color: #ffcb45;
+    padding: 12px 15px;
+    border-radius: 15px;
+    background-color: #2a2c36;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .status::before {
+    content: "🚀";
+    margin-right: 10px;
+  }
+
+  @keyframes rocketFloating {
+    0% { transform: translateY(0px) rotate(5deg); }
+    50% { transform: translateY(-15px) rotate(-5deg); }
+    100% { transform: translateY(0px) rotate(5deg); }
+  }
+  
+  .container::after {
+    content: "";
+    position: absolute;
+    bottom: -80px;
+    right: -80px;
+    width: 200px;
+    height: 200px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23ffcb45"><path d="M2.88 7.88l1.54 1.54C4.15 10.23 4 11.1 4 12c0 4.41 3.59 8 8 8s8-3.59 8-8-3.59-8-8-8c-.9 0-1.77.15-2.58.42L7.89 2.89C9.15 2.32 10.54 2 12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12c0-1.47.32-2.86.88-4.12zM7 5.5C7 6.33 6.33 7 5.5 7S4 6.33 4 5.5 4.67 4 5.5 4 7 4.67 7 5.5zm5.03 3.49h-.07L10.8 12.3h2.39l-1.16-3.31zm-.74-1.49h1.43l2.61 7h-1.35l-.56-1.67h-2.83L9.7 14h-1.38l2.97-7z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.1;
+    z-index: 0;
+    transform: rotate(45deg);
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 90%;
+      padding: 30px 20px;
+      margin: 30px auto;
+    }
+    
+    .title {
+      font-size: 2.2em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 25px 15px;
+      margin: 20px auto;
+      border-radius: 20px;
+    }
+    
+    .title {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+    
+    .button {
+      padding: 12px;
+      font-size: 1em;
+      margin: 10px 0;
+    }
+    
+    .input {
+      padding: 14px;
+      font-size: 1em;
+      margin: 10px 0;
+    }
+    
+    .message, .status {
+      font-size: 1em;
+      padding: 10px;
+    }
+    .but {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+  }
