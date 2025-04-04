@@ -1,4 +1,3 @@
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "../../../node_modules/swiper/swiper.css";
@@ -13,10 +12,26 @@ const RoadmapSlider = () => {
         modules={[Navigation]}
         navigation
         loop={true}
-        slidesPerView={3}
+        slidesPerView={1} // Default for very small screens
         spaceBetween={10} 
         centeredSlides={true}
         className={styles.slidesContainer}
+        breakpoints={{
+
+          350: {
+            slidesPerView: 1,
+            spaceBetween: 0
+          },
+          470: {
+            slidesPerView: 2,
+            spaceBetween: 0
+          },
+          740: {
+            slidesPerView: 3,
+            spaceBetween: 0
+          },
+          
+        }}
       >
         {[...Array(4)].map((_, index) => (
           <SwiperSlide key={index} className={styles.slideWrapper}>
@@ -36,4 +51,3 @@ const RoadmapSlider = () => {
 };
 
 export default RoadmapSlider;
-  

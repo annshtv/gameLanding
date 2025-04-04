@@ -5,7 +5,7 @@
     margin: 0 auto;
     padding: 40px 20px;
     overflow: hidden;
-    margin-top: -300px;
+    margin-top: -330px;
   }
   
   h1 {
@@ -175,4 +175,306 @@
     top: 200px;
     line-height: 4;
     text-align: center;
+}
+
+@media (min-width:768px) and  (max-width: 1110px) {
+  .about {
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -350px;
+  }
+
+  .bannerTxt{
+    top: 150px;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .firstBlunk {
+    left: 0;
+    height: 100%;
+    width: 50%;
+    border: none;
+    box-shadow: none;
+    top: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .pBlank {
+    font-size: 24px;
+    padding-top: 0;
+  }
+
+  .centeredBlank {
+    width: 50%;
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: rgb(14 7 41);
+
+  }
+
+  .centeredBlank p {
+    margin: 10px;
+    font-size: 24px;
+  }
+  .centeredBlank img {
+    position: relative;
+    width: 50%;
+    bottom: 430px;
+    left: 175px;
+}
+  .imageContainer {
+    width: 50%;
+    right: 0px;
+    bottom: 50px;
+    z-index: 2;
+    border: none;
+    box-shadow: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px;
+    height: 300px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+  .roadMap {
+    margin-top: 50px;
+  }
+}
+  
+
+@media (min-width:413px) and (max-width: 768px) {
+
+  .about {
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -350px;
+  }
+
+  .bannerTxt{
+    top: 150px;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .firstBlunk {
+    left: 0;
+    height: 100%;
+    width: 75%;
+    border: none;
+    box-shadow: none;
+    top: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .pBlank {
+    font-size: 24px;
+    padding-top: 0;
+  }
+
+  .centeredBlank {
+    width: 75%;
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: rgb(14 7 41);
+
+  }
+
+  .centeredBlank p {
+    margin: 10px;
+    font-size: 24px;
+  }
+  .centeredBlank img {
+    position: relative;
+    width: 50%;
+    bottom: 390px;
+    left: 302px;
+}
+  .imageContainer {
+    width: 75%;
+    right: 0px;
+    bottom: 50px;
+    z-index: 2;
+    border: none;
+    box-shadow: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px;
+    height: 300px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+  .roadMap {
+    margin-top: 50px;
+  }
+  .txtInfo {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .coin img {
+    width: 370px;
+    height: 370px;
+    
+  }
+  .roadMap {
+    gap: 20px;
+  }
+
+  .bannerTxt {
+    top: 120px;
+  }
+  .sun {
+    height: 100%;
+  }
+  .sun h2 {
+    font-size: 25px;
+    line-height: 2;
+  }
+  .sun .p1 {
+    font-size: 20px;
+  }
+  .sun p {
+    font-size: 13px;
+    line-height: 2;
+  }
+  .roadTxt {
+    font-size: 65px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 413px) {
+  .coin img {
+    width: 270px;
+    height: 270px;
+    
+  }
+  .info {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .firstBlunk {
+    left: 0;
+    height: 100%;
+    width: 75%;
+    border: none;
+    box-shadow: none;
+    top: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .pBlank {
+    font-size: 24px;
+    padding-top: 0;
+  }
+
+  .centeredBlank {
+    width: 75%;
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: rgb(14 7 41);
+
+  }
+
+  .centeredBlank p {
+    margin: 10px;
+    font-size: 24px;
+  }
+  .centeredBlank img {
+    position: relative;
+    width: 50%;
+    bottom: 570px;
+    left: 150px;
+}
+  .imageContainer {
+    width: 75%;
+    right: 0px;
+    bottom: 50px;
+    z-index: 2;
+    border: none;
+    box-shadow: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px;
+    height: 300px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+  .roadMap {
+    margin-top: 50px;
+  }
+  .txtInfo {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .coin img {
+    width: 270px;
+    height: 270px;
+    
+  }
+  .roadMap {
+    gap: 20px;
+  }
+
+  .bannerTxt {
+    top: 120px;
+  }
+  .sun {
+    height: 100%;
+  }
+  .sun h2 {
+    font-size: 25px;
+    line-height: 2;
+  }
+  .sun .p1 {
+    font-size: 20px;
+  }
+  .sun p {
+    font-size: 13px;
+    line-height: 2;
+  }
+
+
+
+  
+
+  #sunContainer {
+    top: -270px;
+  }
+  .roadTxt {
+    font-size: 65px;
+    text-align: center;
+  }
 }

@@ -16,7 +16,7 @@ function Home() {
         <div className={styles.container}>
             <div className={styles.sun}>
               <div className={styles.bannerTxt}>
-              <p>Learn about $TUT</p>
+              <p className={styles.p1}>Learn about $TUT</p>
               <h2>TUTORIAL</h2>
               <p>ca: 0x9458F085CFAcd94422fa2CDfF69b2d9C2de5f34A</p>
               <BuyButton>Buy $TUT</BuyButton>
@@ -47,15 +47,14 @@ function Home() {
     </div>
     <div className={styles.imageContainer}>
 
-      <div  style={{ textAlign: 'right', marginBottom: '10px', display:'flex',alignItems:'center', justifyContent:'center', gap:'10px'  }}>
+      <div  style={{ textAlign: 'right', marginBottom: '10px', display:'flex',alignItems:'center', justifyContent:'flex-start', gap:'10px'  }}>
         <img style={{width:'45px'}} src="pictures/play.svg" alt="" />
         <span style={{ color: 'rgb(255, 238, 181)', fontSize: '16px' }}>Watch the video</span>
       </div>
       
     </div>
   </div>
-  
-  <BuyButton>Go to X</BuyButton>
+  <BuyButton style={{position: 'relative', bottom: '150px'}}>Go to X</BuyButton>
 </div>
           <div className={styles.roadMap}>
             <div className={styles.txtInfo}>

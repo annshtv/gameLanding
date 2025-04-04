@@ -192,7 +192,7 @@
 }
 
 .slideWrapper {
-  width: 330px !important;
+  width: 335px !important;
 }
 
 :global(.swiper-button-prev) {
@@ -258,4 +258,10 @@
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid transparent;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
 }

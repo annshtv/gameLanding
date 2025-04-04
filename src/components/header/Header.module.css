@@ -195,6 +195,8 @@
 @media screen and (max-width: 768px) {
   .header {
     padding: 12px 15px;
+    width: 80%;
+
   }
   
   .desktopNav {
@@ -234,3 +236,8 @@
   }
 }
 
+@media (min-width: 350px) and (max-width: 768px) {
+  .header {
+    width: 80%;
+  }
+}
