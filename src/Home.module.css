@@ -231,9 +231,9 @@
   }
   .centeredBlank img {
     position: relative;
-    width: 50%;
-    bottom: 430px;
-    left: 175px;
+        width: 30%;
+        bottom: 410px;
+        left: 275px;
 }
   .imageContainer {
     width: 50%;
@@ -266,7 +266,7 @@
   }
 
   .bannerTxt{
-    top: 150px;
+    top: 250px;
   }
 
   .info {
@@ -308,10 +308,10 @@
     font-size: 24px;
   }
   .centeredBlank img {
-    position: relative;
-    width: 50%;
-    bottom: 390px;
-    left: 302px;
+    position: absolute;
+        width: 30%;
+        bottom: 470px;
+        left: 230px;
 }
   .imageContainer {
     width: 75%;
@@ -345,20 +345,21 @@
   }
 
   .bannerTxt {
-    top: 120px;
+    top: 220px;
+    line-height: 4;
   }
   .sun {
     height: 100%;
   }
   .sun h2 {
-    font-size: 25px;
+    font-size: 40px;
     line-height: 2;
   }
   .sun .p1 {
-    font-size: 20px;
+    font-size: 25px;
   }
   .sun p {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 2;
   }
   .roadTxt {
@@ -367,7 +368,7 @@
   }
 }
 
-@media (min-width: 350px) and (max-width: 413px) {
+@media (min-width: 320px) and (max-width: 413px) {
   .coin img {
     width: 270px;
     height: 270px;
@@ -414,7 +415,7 @@
   .centeredBlank img {
     position: relative;
     width: 50%;
-    bottom: 570px;
+    bottom: 535px;
     left: 150px;
 }
   .imageContainer {

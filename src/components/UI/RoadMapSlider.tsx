@@ -12,31 +12,30 @@ const RoadmapSlider = () => {
         modules={[Navigation]}
         navigation
         loop={true}
-        slidesPerView={1} // Default for very small screens
-        spaceBetween={10} 
         centeredSlides={true}
+        slidesPerView={1} 
+        spaceBetween={10}
         className={styles.slidesContainer}
         breakpoints={{
-
           350: {
             slidesPerView: 1,
-            spaceBetween: 0
+            centeredSlides: true
           },
-          470: {
-            slidesPerView: 2,
-            spaceBetween: 0
-          },
-          740: {
+          768: {
             slidesPerView: 3,
-            spaceBetween: 0
+            centeredSlides: true
           },
           
+          1024: {
+            slidesPerView: 3,
+            centeredSlides: true
+          }
         }}
       >
-        {[...Array(4)].map((_, index) => (
+        {[...Array(5)].map((_, index) => (
           <SwiperSlide key={index} className={styles.slideWrapper}>
             <div className={styles.slideList}>
-              <h1> Q{index + 2} 2025</h1>
+              <h1> Q{index + 1} 2025</h1>
               <ul>
                 <li><div className={styles.checkbox}></div> <span>Feature {index + 1}</span></li>
                 <li><div className={styles.checkbox}></div> <span>Another Feature</span></li>

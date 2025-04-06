@@ -1,45 +1,44 @@
 import React, { useState, useEffect } from 'react';
 import BuyButton from '../UI/BuyButton';
-
 import styles from './Header.module.css';
 import MobileMenu from '../MobileMenu';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-
+  
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
     };
-
+    
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
+  
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : 'auto';
-    
+        
     return () => {
       document.body.style.overflow = 'auto';
     };
   }, [menuOpen]);
-
+  
   const toggleMenu = () => {
     setMenuOpen(prevState => !prevState);
   };
-
+  
   const closeMenu = () => {
     setMenuOpen(false);
   };
-
+  
   return (
     <>
-      <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
+      <header className={`${styles.header} ${scrolled ? styles.scrolled : ''} ${menuOpen ? styles.headerHidden : ''}`}>
         <div className={styles.container}>
           <div className={styles.logo}>$TUT</div>
           <nav className={styles.desktopNav}>
-          <BuyButton>info</BuyButton>
+            <BuyButton>info</BuyButton>
             <div className={styles.icons}>
               <a href="#" className={styles.iconButton}><img src="/pictures/telega.svg" alt="Telegram" /></a>
               <a href="#" className={styles.iconButton}><img src="/pictures/twitter.svg" alt="Twitter" /></a>
@@ -50,7 +49,7 @@ const Header = () => {
             <BuyButton>Buy</BuyButton>
           </nav>
           <button 
-            className={`${styles.burgerMenu} ${menuOpen ? styles.active : ''}`} 
+            className={`${styles.burgerMenu} ${menuOpen ? styles.active : ''}`}
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >
