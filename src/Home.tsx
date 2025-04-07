@@ -54,7 +54,9 @@ function Home() {
       
     </div>
   </div>
-  <BuyButton style={{position: 'relative', bottom: '150px'}}>Go to X</BuyButton>
+  <div style={{ position: 'relative', bottom: '150px' }}>
+    <BuyButton>Go to X</BuyButton>
+  </div>
 </div>
           <div className={styles.roadMap}>
             <div className={styles.txtInfo}>
