@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import BuyButton from '../UI/BuyButton';
 import styles from './Header.module.css';
 import MobileMenu from '../MobileMenu';
