@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
-import newSvg from '../assets/new.svg';
+import newSvg from '../assets/dots.svg';
 import styles from '../Home.module.css';
 
 interface RotatingSunProps {
@@ -32,9 +32,7 @@ const RotatingSun: React.FC<RotatingSunProps> = ({
 
 	return (
 		<div id={styles.sunContainer} className={`rotating-sun-container ${className}`} style={{
-			display: 'flex',
-			justifyContent: 'center',
-			alignItems: 'center',
+			
 			width: '100%',
 			height: '100%',
             overflow: 'hidden',
@@ -55,7 +53,9 @@ const RotatingSun: React.FC<RotatingSunProps> = ({
 					className='sun-image' 
 					style={{
 						width: `${size}%`,
-						height: `${size}%`
+						height: `${size}%`,
+						position: 'relative',
+						top: '-520px',
 					}}
 				/>
 			</div>

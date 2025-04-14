@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(237, 153, 28);
+  background-color: #633d7f;
 }
 
 .navigation {
@@ -49,9 +49,8 @@
 }
 
 .slideList {
-  background-color: rgb(255, 238, 181);
-  border-top-left-radius: 9999px;
-  border-top-right-radius: 9999px;
+  background-color: #FFF8DC;
+  border-radius: 40px;
   padding: 64px;
   height: 70%;
   display: flex;
@@ -270,7 +269,8 @@
 }
 
 .slideWrapper {
-  width: 320px !important;
+  width: 315px !important;
+  margin-right: 5px !important;
 }
 
 .slidesContainer {

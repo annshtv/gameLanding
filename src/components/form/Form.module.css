@@ -8,7 +8,7 @@
     margin: 40px auto;
     color: #ffffff;
     text-align: center;
-    border: 3px solid #ecce84;
+    border: 3px solid #f5d63d;
     position: relative;
     overflow: hidden;
   }
@@ -16,7 +16,7 @@
   .title {
     font-size: 2.2em;
     font-weight: 800;
-    color: #ffcb45;
+    color: #FFF8DC;
     margin-bottom: 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -24,7 +24,7 @@
   }
   
   .button {
-    background-color: #ffcb45;
+    background-color: #f5d63d;
     color: #1c1e26;
     font-weight: 700;
     padding: 14px 20px;
@@ -96,7 +96,7 @@
     font-size: 1.2em;
     font-weight: 600;
     margin: 15px 0;
-    color: #ffcb45;
+    color: #FFF8DC;
     padding: 12px 15px;
     border-radius: 15px;
     background-color: #2a2c36;

@@ -36,9 +36,8 @@ const Header = () => {
     <>
       <header className={`${styles.header} ${scrolled ? styles.scrolled : ''} ${menuOpen ? styles.headerHidden : ''}`}>
         <div className={styles.container}>
-          <div className={styles.logo}>$TUT</div>
+          <div className={styles.logo}>$SURV</div>
           <nav className={styles.desktopNav}>
-            <BuyButton>info</BuyButton>
             <div className={styles.icons}>
               <a href="#" className={styles.iconButton}><img src="/pictures/telega.svg" alt="Telegram" /></a>
               <a href="#" className={styles.iconButton}><img src="/pictures/twitter.svg" alt="Twitter" /></a>
@@ -46,6 +45,7 @@ const Header = () => {
               <a href="#" className={styles.iconButton}><img src="/pictures/sova.svg" alt="Eagle" /></a>
               <a href="#" className={styles.iconButton}><img src="pictures/man.svg" alt="Discord" /></a>
             </div>
+            <BuyButton>info</BuyButton>
             <BuyButton>Buy</BuyButton>
           </nav>
           <button 

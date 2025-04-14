@@ -16,12 +16,12 @@ function Home() {
         <div className={styles.container}>
             <div className={styles.sun}>
               <div className={styles.bannerTxt}>
-              <p className={styles.p1}>Learn about $TUT</p>
-              <h2>TUTORIAL</h2>
+              <p className={styles.p1}>Learn about $SURV</p>
+              <h2>$SURV</h2>
               <p>ca: 0x9458F085CFAcd94422fa2CDfF69b2d9C2de5f34A</p>
-              <BuyButton>Buy $TUT</BuyButton>
+              <BuyButton>Buy $SURV</BuyButton>
               </div>
-            <RotatingSun size={150}/>
+            <RotatingSun size={300}/>
             </div>
         <div className={styles.about}>
   <div className={styles.info}>
@@ -29,7 +29,7 @@ function Home() {
       <p className={styles.pBlank}>
         REAL OG<br />
         TUTORIAL<br />
-        TOKEN IS $TUT
+        TOKEN IS $SURV
       </p>
     </div>
 
@@ -43,7 +43,7 @@ function Home() {
       <p>
         Tutorial is a memecoin created by real Builders
       </p>
-      <img src="/pictures/rocket.png" alt="Rocket" />
+      <img src="/pictures/surv.png" alt="logo" />
     </div>
     <div className={styles.imageContainer}>
 
@@ -61,12 +61,10 @@ function Home() {
           <div className={styles.roadMap}>
             <div className={styles.txtInfo}>
               <div className={styles.roadTxt}>
-                <p>We are on the</p>
                 <h2>ROAD MAP</h2>
-                <p>to heaven.</p>
               </div>
               <div className={styles.coin}>
-                <img src="pictures/coin.avif" alt="" />
+                <img src="pictures/surv.png" alt="" />
               </div>
             </div>
             <RoadmapSlider />

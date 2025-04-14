@@ -24,16 +24,13 @@
   }
   
   .firstBlunk {
-    background-color: #FBEBB0; 
+    background-color: #FFF8DC; 
     width: 340px;
     height: 500px;
     border-radius: 40px;
-    border: 5px solid rgb(237, 153, 28);
-    position: relative;
+    border: 5px solid #f5d63d;
     overflow: hidden;
     left: 70px;
-    z-index: 1;
-    box-shadow: 20px 6px 20px rgba(255, 155, 57, 0.8);
   }
   
   .pBlank {
@@ -48,8 +45,11 @@
   
   .centeredBlank img {
     position: relative;
-    right: 350px;
-    bottom: 230px;
+    right: 320px;
+    bottom: 150px;
+    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
   
@@ -60,7 +60,7 @@
   
   .centeredBlank {
     background-color: rgb(0, 0, 0);
-    color: #F3A712;
+    color: #f5d63d;
     font-family: 'Alata', sans-serif;
     width: 340px;
     height: 500px;
@@ -73,10 +73,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border: 5px solid rgb(237, 153, 28);
-    position: relative;
-    z-index: 2;
-    box-shadow: 0 6px 20px rgba(255, 155, 57, 0.8);
+    border: 5px solid #f5d63d;
   }
   
   .centeredBlank p {
@@ -90,11 +87,8 @@
     border-radius: 40px;
     padding: 20px;
     box-sizing: border-box;
-    border: 5px solid rgb(237, 153, 28);
-    position: relative;
+    border: 5px solid #f5d63d;
     right: 70px;
-    z-index: 1;
-    box-shadow: 0 6px 20px rgba(255, 155, 57, 0.8);
   }
   
   .imageContainer img {
@@ -110,15 +104,14 @@
     align-items: center;
 }
 .roadTxt {
-    width: 350px;
+    width: 60%;
 }
 .coin {
     position: relative;
 }
 .coin img {
-    width: 370px;
-    height: 370px;
-    transform: rotate(4deg);
+    width: 300px;
+    height: 300px;
 }
 .roadTxt h2 {
     font-size: 85px;
@@ -139,20 +132,22 @@
 }
 
 .main {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 30%), rgb(237, 153, 28);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 30%), #633d7f;
 }
 .txtInfo {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
 }
 
 .sun p {
     font-size: 20px;
     margin: 0;
     padding: 0 20px;
-    color: rgb(255, 238, 181);
+    color: #FFF8DC;
     font-weight: bold;
     position: relative;
     z-index: 1;
@@ -163,7 +158,7 @@
     font-size: 80px;
     line-height: 80px;
     margin: 0;
-    color: rgb(240, 185, 11);
+    color: #f5d63d;
     font-weight: bold;
     position: relative;
     z-index: 1;
@@ -231,9 +226,10 @@
   }
   .centeredBlank img {
     position: relative;
-        width: 30%;
-        bottom: 410px;
-        left: 275px;
+    width: 35%;
+    height: 30%;
+    bottom: 410px;
+    left: 280px;
 }
   .imageContainer {
     width: 50%;
@@ -309,9 +305,11 @@
   }
   .centeredBlank img {
     position: absolute;
-        width: 30%;
-        bottom: 470px;
-        left: 230px;
+    width: 100px;
+    height: 100px;
+    bottom: 830px;
+    right: 50px;
+    
 }
   .imageContainer {
     width: 75%;
