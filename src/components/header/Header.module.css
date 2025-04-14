@@ -81,8 +81,8 @@
   padding: 0;
   z-index: 1500; 
   position: fixed; 
-  top: 22px;
-  right: calc(5% + 15px); 
+  top: 16px;
+  right: calc(5% + 5px); 
 }
 
 .burgerLine {

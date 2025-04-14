@@ -50,7 +50,7 @@ const RotatingSun: React.FC<RotatingSunProps> = ({
 					ref={sunRef} 
 					src={newSvg} 
 					alt='Sun' 
-					className='sun-image' 
+					className={styles.sunImage} 
 					style={{
 						width: `${size}%`,
 						height: `${size}%`,
