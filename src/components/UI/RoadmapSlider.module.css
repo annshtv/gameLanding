@@ -264,19 +264,21 @@
   position: relative;
 }
 
-.slideWrapper {
-  margin-right: 5px !important;
-  width: 335px !important;
-}
-
 .slidesContainer {
   width: 100%;
+}
+.slideWrapper {
+  max-width: 335px;
 }
 
  @media (min-width: 320px) and (max-width: 413px){
   .slideWrapper {
     margin-right: 5px !important;
-    width: 362px !important;
+    max-width: 335px !important;
+  }
+
+  .container {
+    width: 345px !important;
   }
 }
 
