@@ -69,7 +69,7 @@ function Home() {
             </div>
             <RoadmapSlider />
           </div>
-          <Form />
+          {/* <Form /> */}
         </div>
         <Footer/>
       </main>
