@@ -1,8 +1,8 @@
 // import { ethers } from 'ethers';
 // import { formatUnits, parseUnits } from 'ethers/lib/utils';
 // import { useEffect, useState } from 'react';
-import BuyButton from '../UI/BuyButton';
-import styles from './Form.module.css';
+// import BuyButton from '../UI/BuyButton';
+// import styles from './Form.module.css';
 
 function Form() {
 // 	const [provider, setProvider] = useState(null);
