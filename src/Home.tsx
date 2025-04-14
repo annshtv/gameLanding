@@ -3,7 +3,7 @@ import Header from "./components/header/Header";
 import styles from "./Home.module.css";
 import "./index.css";
 import RoadmapSlider from "./components/UI/RoadMapSlider";
-import Form from "./components/form/Form";
+// import Form from "./components/form/Form";
 import BuyButton from "./components/UI/BuyButton";
 import RotatingSun from "./components/RotatingSun";
 import Footer from "./components/footer/Footer";
