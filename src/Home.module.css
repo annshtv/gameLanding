@@ -179,6 +179,16 @@
     text-align: center;
 }
 
+.play {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+}
+
 @media (min-width:768px) and  (max-width: 1110px) {
   .about {
     padding: 5px 20px;
@@ -498,7 +508,11 @@
     line-height: 2;
   }
 
-
+.play {
+  width: 170px;
+  height: 50px;
+  font-size: 14px
+}
 
   
 

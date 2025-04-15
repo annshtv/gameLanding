@@ -1,9 +1,15 @@
-import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from 'react'
+import { ButtonHTMLAttributes, ReactNode } from 'react'
 import styles from './buttons/button.module.css'
-function BuyButton(props: { children: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined }) {
+
+type BuyButtonProps = {
+  children: ReactNode
+  className?: string
+} & ButtonHTMLAttributes<HTMLButtonElement>
+
+function BuyButton({ children, className = '', ...rest }: BuyButtonProps) {
   return (
-    <button className={styles.buyButton}>
-        {props.children}
+    <button className={`${styles.buyButton} ${className}`} {...rest}>
+      {children}
     </button>
   )
 }

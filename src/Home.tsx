@@ -71,6 +71,7 @@ function Home() {
           </div>
           {/* <Form /> */}
         </div>
+        <BuyButton className={styles.play} >Play</BuyButton>
         <Footer/>
       </main>
     </>
