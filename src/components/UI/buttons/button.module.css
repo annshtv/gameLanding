@@ -1,5 +1,5 @@
 .buyButton {
-    background-color: #f5d63d;
+    background-color: #9f93b9;
     color: #000000;
     border: 3px solid #000000;
     border-radius: 100px;
@@ -13,5 +13,5 @@
   }
   
   .buyButton:hover {
-    background-color: rgb(240, 185, 11);
+    background-color: #615875;
   }

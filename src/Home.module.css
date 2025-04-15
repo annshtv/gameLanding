@@ -14,7 +14,7 @@
   }
   
   .sunImage {
-    top: -520px;
+    top: -420px;
   }
   .info {
     display: flex;
@@ -27,11 +27,11 @@
   }
   
   .firstBlunk {
-    background-color: #FFF8DC; 
+    background-color: #cfcadb; 
     width: 340px;
     height: 500px;
     border-radius: 40px;
-    border: 5px solid #f5d63d;
+    border: 5px solid #615875;;
     overflow: hidden;
     left: 70px;
   }
@@ -76,7 +76,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border: 5px solid #f5d63d;
+    border: 5px solid #615875;;
   }
   
   .centeredBlank p {
@@ -90,7 +90,7 @@
     border-radius: 40px;
     padding: 20px;
     box-sizing: border-box;
-    border: 5px solid #f5d63d;
+    border: 5px solid #615875;;
     right: 70px;
   }
   
@@ -120,6 +120,10 @@
     font-size: 85px;
     line-height: 80px;
     margin: 0;
+    color: #33264f;
+    background-color: #9f93b9;
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .roadTxt p {
@@ -161,7 +165,7 @@
     font-size: 80px;
     line-height: 80px;
     margin: 0;
-    color: #f5d63d;
+    color: #615875;
     font-weight: bold;
     position: relative;
     z-index: 1;
@@ -265,14 +269,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -300px;
+    margin-top: -800px;
   }
 
   .bannerTxt{
     top: 250px;
   }
+ .txtInfo {
+  background-color: #9f93b9;
+  border-radius: 40px;
+  padding: 10px;
+ }
+  .roadTxt h2 {
+    font-size: 50px;
+  }
   .sunImage {
-    top: 0px !important;
+    top: -250px !important;
   }
   .info {
     flex-direction: column;
@@ -381,7 +393,7 @@
     height: 270px;
     
   }
-
+  
   .about {
     margin-top: -450px;
   }
@@ -430,8 +442,8 @@
   .centeredBlank img {
     position: relative;
     width: 50%;
-    bottom: 535px;
-    left: 150px;
+    bottom: 565px;
+    left: 180px;
 }
   .imageContainer {
     width: 75%;
@@ -452,8 +464,9 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    background-color: #fff8dcda;
+    background-color: #9f93b9;
     border-radius: 40px;
+    padding: 10px;
   }
   .coin img {
     width: 270px;
@@ -461,14 +474,14 @@
     
   }
   .roadTxt h2 {
-    font-size: 65px;
+    font-size: 35px;
   }
   .roadMap {
     gap: 20px;
   }
 
   .bannerTxt {
-    top: 120px;
+    top: 250px;
   }
   .sun {
     height: 100%;

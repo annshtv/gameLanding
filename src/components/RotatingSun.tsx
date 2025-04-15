@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
-import newSvg from '../assets/dots.svg';
+import newSvg from '../assets/round.svg';
 import styles from '../Home.module.css';
 
 interface RotatingSunProps {
@@ -55,7 +55,7 @@ const RotatingSun: React.FC<RotatingSunProps> = ({
 						width: `${size}%`,
 						height: `${size}%`,
 						position: 'relative',
-						top: '-520px',
+						top: '-420px',
 					}}
 				/>
 			</div>

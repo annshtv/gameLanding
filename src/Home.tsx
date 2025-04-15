@@ -61,7 +61,7 @@ function Home() {
           <div className={styles.roadMap}>
             <div className={styles.txtInfo}>
               <div className={styles.roadTxt}>
-                <h2>ROAD MAP</h2>
+                <h2>ROADMAP</h2>
               </div>
               <div className={styles.coin}>
                 <img src="pictures/surv.png" alt="" />
